@@ -1,0 +1,14 @@
+[project]
+name = "psycho"
+authors = ["KN SOLVRO"]
+version = "0.1.0"
+description = "PSYCHO"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.26",
+    "langchain-openai>=0.3.28",
+    "langgraph>=0.5.3",
+    "langsmith>=0.4.8",
+    "transformers>=4.53.2",
+]
